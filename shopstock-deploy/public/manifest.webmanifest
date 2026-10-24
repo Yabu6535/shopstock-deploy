@@ -1,0 +1,17 @@
+{
+  "name": "ShopStock Inventory & POS",
+  "short_name": "ShopStock",
+  "description": "Multi-Branch Inventory, Credit & Offline-Ready POS Manager on Cloudflare",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#059669",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%23059669'/%3E%3Cpath d='M64 24L24 44v40l40 20 40-20V44L64 24zm0 11.2L91.6 49 64 62.8 36.4 49 64 35.2zM34 59l25 12.5v25L34 84V59zm60 25L69 96.5v-25L94 59v25z' fill='%23fff'/%3E%3C/svg%3E",
+      "sizes": "128x128",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

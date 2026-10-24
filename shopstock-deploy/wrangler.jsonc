@@ -1,0 +1,20 @@
+{
+  "name": "shopstock-manager",
+  "main": "worker.js",
+  "compatibility_date": "2025-04-01",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "shopstock-db"
+    }
+  ]
+}
